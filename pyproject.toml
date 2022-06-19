@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "environment-variables-python"
-version = "0.0.001"
+version = "0.0.01"
 description = "this is not a awesome description"
 license = "MIT"
 authors = ["Jorge Vasconcelos <john@example.com>"]
@@ -8,6 +8,9 @@ keywords = ["environment", "env"]
 readme = "README.md"
 homepage = "https://github.com/jorgepvasconcelos/environment-variables-python"
 repository = "https://github.com/jorgepvasconcelos/environment-variables-python"
+packages = [
+    { include = "environment_variables" }
+]
 
 [tool.poetry.dependencies]
 python = "^3.9"
