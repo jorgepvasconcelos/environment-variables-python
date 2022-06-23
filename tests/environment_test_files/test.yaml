@@ -1,0 +1,16 @@
+
+PRD:
+  DB_HOST: 'url_prd'
+  PORT: 3306
+  USER: super
+  PASSWORD: 123
+
+HML:
+  DB_HOST: "url_hml"
+  PORT: 3306
+  USER: super_hml
+  PASSWORD: 123
+
+
+
+
